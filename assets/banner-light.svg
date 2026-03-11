@@ -1,58 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
-  <defs>
-    <linearGradient id="bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f8f9ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#eef0ff;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#6172f3;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <rect width="1200" height="320" fill="#fafaf9"/>
 
-  <rect width="1200" height="300" fill="url(#bg-light)" rx="0"/>
-
-  <!-- Subtle geometric elements -->
-  <circle cx="100" cy="60" r="120" fill="#6172f3" opacity="0.04"/>
-  <circle cx="1100" cy="240" r="150" fill="#8b5cf6" opacity="0.04"/>
-  <circle cx="900" cy="40" r="80" fill="#6172f3" opacity="0.03"/>
-  <circle cx="300" cy="260" r="60" fill="#8b5cf6" opacity="0.03"/>
-
-  <!-- Grid dots pattern -->
-  <g fill="#6172f3" opacity="0.08">
-    <circle cx="50" cy="50" r="2"/><circle cx="90" cy="50" r="2"/><circle cx="130" cy="50" r="2"/><circle cx="170" cy="50" r="2"/>
-    <circle cx="50" cy="90" r="2"/><circle cx="90" cy="90" r="2"/><circle cx="130" cy="90" r="2"/><circle cx="170" cy="90" r="2"/>
-    <circle cx="1030" cy="210" r="2"/><circle cx="1070" cy="210" r="2"/><circle cx="1110" cy="210" r="2"/><circle cx="1150" cy="210" r="2"/>
-    <circle cx="1030" cy="250" r="2"/><circle cx="1070" cy="250" r="2"/><circle cx="1110" cy="250" r="2"/><circle cx="1150" cy="250" r="2"/>
+  <!-- Minimal dot grid — structured chaos -->
+  <g fill="#78716c" opacity="0.06">
+    <circle cx="40" cy="40" r="1.5"/><circle cx="80" cy="40" r="1.5"/><circle cx="120" cy="40" r="1.5"/><circle cx="160" cy="40" r="1.5"/><circle cx="200" cy="40" r="1.5"/>
+    <circle cx="40" cy="80" r="1.5"/><circle cx="80" cy="80" r="1.5"/><circle cx="120" cy="80" r="1.5"/><circle cx="160" cy="80" r="1.5"/><circle cx="200" cy="80" r="1.5"/>
+    <circle cx="40" cy="120" r="1.5"/><circle cx="80" cy="120" r="1.5"/><circle cx="120" cy="120" r="1.5"/><circle cx="160" cy="120" r="1.5"/><circle cx="200" cy="120" r="1.5"/>
+    <circle cx="1000" cy="200" r="1.5"/><circle cx="1040" cy="200" r="1.5"/><circle cx="1080" cy="200" r="1.5"/><circle cx="1120" cy="200" r="1.5"/><circle cx="1160" cy="200" r="1.5"/>
+    <circle cx="1000" cy="240" r="1.5"/><circle cx="1040" cy="240" r="1.5"/><circle cx="1080" cy="240" r="1.5"/><circle cx="1120" cy="240" r="1.5"/><circle cx="1160" cy="240" r="1.5"/>
+    <circle cx="1000" cy="280" r="1.5"/><circle cx="1040" cy="280" r="1.5"/><circle cx="1080" cy="280" r="1.5"/><circle cx="1120" cy="280" r="1.5"/><circle cx="1160" cy="280" r="1.5"/>
   </g>
 
-  <!-- Logo mark -->
-  <g transform="translate(480, 85)">
-    <rect x="0" y="0" width="44" height="44" rx="10" fill="url(#accent-grad)"/>
-    <text x="22" y="31" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="white" text-anchor="middle">E</text>
-  </g>
+  <!-- Single accent line — chromatic restraint -->
+  <rect x="560" y="50" width="80" height="3" rx="1.5" fill="#6172f3"/>
 
-  <!-- Brand name -->
-  <text x="540" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="#0f1013" letter-spacing="-1">emotix</text>
+  <!-- Bold headline — typography as architecture -->
+  <text x="600" y="112" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#0a0a0b" text-anchor="middle" letter-spacing="-2">DESCRIBE YOUR IDEA.</text>
+  <text x="600" y="168" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#0a0a0b" text-anchor="middle" letter-spacing="-2">WE RESEARCH IT.</text>
 
-  <!-- Tagline -->
-  <text x="600" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#636466" text-anchor="middle" letter-spacing="0.5">AI-powered startup research platform</text>
+  <!-- Subline — stone color, restrained -->
+  <text x="600" y="215" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="17" fill="#78716c" text-anchor="middle" letter-spacing="0.5">AI agents for market research, competitor analysis, and product strategy</text>
 
-  <!-- Pill badges -->
-  <g transform="translate(355, 200)">
-    <rect x="0" y="0" width="110" height="30" rx="15" fill="#6172f3" opacity="0.08"/>
-    <text x="55" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6172f3" text-anchor="middle" font-weight="500">Market Research</text>
-  </g>
-  <g transform="translate(425, 200)">
-    <rect x="0" y="0" width="130" height="30" rx="15" fill="#6172f3" opacity="0.08"/>
-    <text x="65" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6172f3" text-anchor="middle" font-weight="500">Competitor Intel</text>
-  </g>
-  <g transform="translate(515, 200)">
-    <rect x="0" y="0" width="130" height="30" rx="15" fill="#6172f3" opacity="0.08"/>
-    <text x="65" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6172f3" text-anchor="middle" font-weight="500">Product Strategy</text>
-  </g>
-  <g transform="translate(595, 200)">
-    <rect x="0" y="0" width="135" height="30" rx="15" fill="#6172f3" opacity="0.08"/>
-    <text x="67" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#6172f3" text-anchor="middle" font-weight="500">Financial Modeling</text>
+  <!-- Whisper divider -->
+  <rect x="540" y="240" width="120" height="1" fill="#e7e5e4"/>
+
+  <!-- Minimal stats row -->
+  <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
+    <text x="420" y="280" font-size="22" font-weight="700" fill="#0a0a0b">260+</text>
+    <text x="420" y="300" font-size="11" fill="#78716c" letter-spacing="1.5" text-transform="uppercase">FOUNDERS</text>
+
+    <rect x="510" y="268" width="1" height="36" fill="#e7e5e4"/>
+
+    <text x="600" y="280" font-size="22" font-weight="700" fill="#0a0a0b">8 min</text>
+    <text x="600" y="300" font-size="11" fill="#78716c" letter-spacing="1.5">AVG SESSION</text>
+
+    <rect x="690" y="268" width="1" height="36" fill="#e7e5e4"/>
+
+    <text x="780" y="280" font-size="22" font-weight="700" fill="#0a0a0b">$29</text>
+    <text x="780" y="300" font-size="11" fill="#78716c" letter-spacing="1.5">/MONTH</text>
   </g>
 </svg>
