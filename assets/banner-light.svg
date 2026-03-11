@@ -1,42 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
-  <rect width="1200" height="320" fill="#fafaf9"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+    <filter id="shadow-l" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.06"/>
+    </filter>
+    <clipPath id="card-clip-l">
+      <rect x="700" y="40" width="440" height="260" rx="16"/>
+    </clipPath>
+  </defs>
 
-  <!-- Minimal dot grid — structured chaos -->
-  <g fill="#78716c" opacity="0.06">
-    <circle cx="40" cy="40" r="1.5"/><circle cx="80" cy="40" r="1.5"/><circle cx="120" cy="40" r="1.5"/><circle cx="160" cy="40" r="1.5"/><circle cx="200" cy="40" r="1.5"/>
-    <circle cx="40" cy="80" r="1.5"/><circle cx="80" cy="80" r="1.5"/><circle cx="120" cy="80" r="1.5"/><circle cx="160" cy="80" r="1.5"/><circle cx="200" cy="80" r="1.5"/>
-    <circle cx="40" cy="120" r="1.5"/><circle cx="80" cy="120" r="1.5"/><circle cx="120" cy="120" r="1.5"/><circle cx="160" cy="120" r="1.5"/><circle cx="200" cy="120" r="1.5"/>
-    <circle cx="1000" cy="200" r="1.5"/><circle cx="1040" cy="200" r="1.5"/><circle cx="1080" cy="200" r="1.5"/><circle cx="1120" cy="200" r="1.5"/><circle cx="1160" cy="200" r="1.5"/>
-    <circle cx="1000" cy="240" r="1.5"/><circle cx="1040" cy="240" r="1.5"/><circle cx="1080" cy="240" r="1.5"/><circle cx="1120" cy="240" r="1.5"/><circle cx="1160" cy="240" r="1.5"/>
-    <circle cx="1000" cy="280" r="1.5"/><circle cx="1040" cy="280" r="1.5"/><circle cx="1080" cy="280" r="1.5"/><circle cx="1120" cy="280" r="1.5"/><circle cx="1160" cy="280" r="1.5"/>
+  <!-- Background — paper -->
+  <rect width="1200" height="340" fill="#fafaf9"/>
+
+  <!-- LEFT SIDE: Hero text -->
+
+  <!-- Accent line -->
+  <rect x="72" y="60" width="48" height="3" rx="1.5" fill="#6172f3"/>
+
+  <!-- Headline -->
+  <text x="72" y="110" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="44" font-weight="700" fill="#0a0a0b" letter-spacing="-1.5">DESCRIBE</text>
+  <text x="72" y="158" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="44" font-weight="700" fill="#0a0a0b" letter-spacing="-1.5">YOUR IDEA.</text>
+  <text x="72" y="210" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="44" font-weight="700" fill="#6172f3" letter-spacing="-1.5">WE RESEARCH IT.</text>
+
+  <!-- Subline -->
+  <text x="72" y="248" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="14" fill="#78716c" letter-spacing="0.2">AI agents for market research, competitor</text>
+  <text x="72" y="268" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="14" fill="#78716c" letter-spacing="0.2">analysis, and product strategy.</text>
+
+  <!-- CTA button -->
+  <rect x="72" y="290" width="160" height="38" rx="8" fill="#6172f3"/>
+  <text x="152" y="314" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">Describe Your Idea</text>
+
+  <!-- RIGHT SIDE: Chat preview window -->
+  <g filter="url(#shadow-l)">
+    <rect x="700" y="40" width="440" height="260" rx="16" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
   </g>
 
-  <!-- Single accent line — chromatic restraint -->
-  <rect x="560" y="50" width="80" height="3" rx="1.5" fill="#6172f3"/>
+  <g clip-path="url(#card-clip-l)">
+    <!-- Window header dots -->
+    <circle cx="724" cy="60" r="4" fill="#e7e5e4"/>
+    <circle cx="738" cy="60" r="4" fill="#e7e5e4"/>
+    <circle cx="752" cy="60" r="4" fill="#e7e5e4"/>
 
-  <!-- Bold headline — typography as architecture -->
-  <text x="600" y="112" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#0a0a0b" text-anchor="middle" letter-spacing="-2">DESCRIBE YOUR IDEA.</text>
-  <text x="600" y="168" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#0a0a0b" text-anchor="middle" letter-spacing="-2">WE RESEARCH IT.</text>
+    <!-- Window divider -->
+    <rect x="700" y="74" width="440" height="1" fill="#e7e5e4"/>
 
-  <!-- Subline — stone color, restrained -->
-  <text x="600" y="215" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="17" fill="#78716c" text-anchor="middle" letter-spacing="0.5">AI agents for market research, competitor analysis, and product strategy</text>
+    <!-- User message bubble — right aligned, accent blue -->
+    <rect x="840" y="90" width="280" height="40" rx="14" fill="#6172f3"/>
+    <text x="860" y="115" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="12" fill="#ffffff">A meal planning app for busy parents</text>
 
-  <!-- Whisper divider -->
-  <rect x="540" y="240" width="120" height="1" fill="#e7e5e4"/>
+    <!-- Agent status row -->
+    <circle cx="724" cy="155" r="14" fill="#6172f3" opacity="0.12"/>
+    <text x="724" y="160" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="12" font-weight="700" fill="#6172f3" text-anchor="middle">M</text>
+    <text x="748" y="152" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="12" font-weight="600" fill="#0a0a0b">Market Researcher</text>
+    <text x="748" y="168" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="11" fill="#78716c">Analyzing competitors</text>
+    <!-- Animated dots -->
+    <circle cx="846" cy="165" r="2" fill="#78716c" opacity="0.6"/>
+    <circle cx="854" cy="165" r="2" fill="#78716c" opacity="0.4"/>
+    <circle cx="862" cy="165" r="2" fill="#78716c" opacity="0.2"/>
 
-  <!-- Minimal stats row -->
-  <g font-family="Inter, system-ui, -apple-system, sans-serif" text-anchor="middle">
-    <text x="420" y="280" font-size="22" font-weight="700" fill="#0a0a0b">260+</text>
-    <text x="420" y="300" font-size="11" fill="#78716c" letter-spacing="1.5" text-transform="uppercase">FOUNDERS</text>
+    <!-- Result card -->
+    <rect x="716" y="185" width="408" height="100" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
 
-    <rect x="510" y="268" width="1" height="36" fill="#e7e5e4"/>
+    <!-- Card header -->
+    <rect x="716" y="185" width="408" height="32" rx="10" fill="rgba(97, 114, 243, 0.04)"/>
+    <rect x="716" y="207" width="408" height="10" fill="rgba(97, 114, 243, 0.04)"/>
+    <!-- Bar chart icon -->
+    <rect x="732" y="194" width="4" height="12" rx="1" fill="#6172f3"/>
+    <rect x="738" y="198" width="4" height="8" rx="1" fill="#6172f3"/>
+    <rect x="744" y="191" width="4" height="15" rx="1" fill="#6172f3"/>
+    <text x="756" y="205" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="12" font-weight="600" fill="#0a0a0b">Competitor Analysis</text>
 
-    <text x="600" y="280" font-size="22" font-weight="700" fill="#0a0a0b">8 min</text>
-    <text x="600" y="300" font-size="11" fill="#78716c" letter-spacing="1.5">AVG SESSION</text>
+    <!-- Data rows -->
+    <text x="732" y="234" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="11" fill="#78716c">Mealime</text>
+    <text x="1040" y="234" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="11" font-weight="600" fill="#0a0a0b" text-anchor="end">4.8 ★ · 2.1M users</text>
 
-    <rect x="690" y="268" width="1" height="36" fill="#e7e5e4"/>
+    <rect x="732" y="242" width="376" height="1" fill="#e7e5e4"/>
 
-    <text x="780" y="280" font-size="22" font-weight="700" fill="#0a0a0b">$29</text>
-    <text x="780" y="300" font-size="11" fill="#78716c" letter-spacing="1.5">/MONTH</text>
+    <text x="732" y="258" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="11" fill="#78716c">Paprika</text>
+    <text x="1040" y="258" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="11" font-weight="600" fill="#0a0a0b" text-anchor="end">4.6 ★ · 890K users</text>
+
+    <rect x="732" y="266" width="376" height="1" fill="#e7e5e4"/>
+
+    <text x="732" y="278" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="11" fill="#78716c">Yummly</text>
+    <text x="1040" y="278" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="11" font-weight="600" fill="#0a0a0b" text-anchor="end">4.5 ★ · 1.5M users</text>
   </g>
 </svg>

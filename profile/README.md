@@ -6,44 +6,44 @@
 
 <p align="center">
   <a href="https://emotix.co">Website</a> &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://app.emotix.co">Describe Your Idea</a> &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://app.emotix.co">Launch App</a> &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://emotix.co/blog">Blog</a> &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://www.linkedin.com/company/emotixco">LinkedIn</a>
 </p>
 
-<br/>
+---
 
-Tell our conversational AI agents what you're building. They research your market, analyze competitors, and deliver results back to you in real time.
+Tell our conversational AI agents what you're building. They research your market, analyze competitors, and stream results back to you — in real time.
 
 No forms. No templates. Just describe your concept.
 
----
+<br/>
 
-**WHAT YOUR AI TEAM DELIVERS**
+### What your AI team delivers
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Market Research** — TAM/SAM/SOM sizing, trends, and opportunity mapping<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;**Competitor Intelligence** — feature matrices, pricing analysis, positioning gaps<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;**Product Strategy** — PRDs, user personas, wireframes, go-to-market plans<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;**Financial Modeling** — unit economics, revenue projections, fundraising benchmarks
+**Market Research** — TAM/SAM/SOM sizing, trends, opportunity mapping
 
----
+**Competitor Intelligence** — feature matrices, pricing analysis, positioning gaps
 
-**OPEN SOURCE**
+**Product Strategy** — PRDs, user personas, wireframes, go-to-market plans
 
-We extract and open-source the most battle-tested parts of our stack.
+**Financial Modeling** — unit economics, revenue projections, fundraising benchmarks
 
-| | |
-|:--|:--|
-| **[gemini-heal](https://github.com/emotixco/gemini-heal)** | Resilience toolkit for the Gemini API — rate limits, `MALFORMED_FUNCTION_CALL` recovery, circuit breaking |
-| **[claude-skills-founder](https://github.com/emotixco/claude-skills-founder)** | Claude Code skills for startup founders — product briefs, competitor analysis, pricing strategy, pitch decks |
+<br/>
 
-More coming — LLM router, agent pipeline framework, competitor intel toolkit.
+### Open source
 
----
+We open-source the most battle-tested parts of our stack:
 
-**STACK**
+**[gemini-heal](https://github.com/emotixco/gemini-heal)** — Resilience toolkit for the Gemini API. Rate limits, `MALFORMED_FUNCTION_CALL` recovery, circuit breaking.
 
-`TypeScript` · `Node.js` · `Next.js` · `Express` · `Socket.IO` · `TypeORM` · `PostgreSQL` · `Redis` · `Gemini` · `DeepSeek` · `GPT-4o`
+**[claude-skills-founder](https://github.com/emotixco/claude-skills-founder)** — Claude Code skills for startup founders. Product briefs, competitor analysis, pricing strategy, pitch decks.
+
+<br/>
+
+### Stack
+
+`TypeScript` · `Node.js` · `Next.js` · `Express` · `Socket.IO` · `PostgreSQL` · `Redis` · `Gemini` · `DeepSeek` · `GPT-4o`
 
 ---
 
