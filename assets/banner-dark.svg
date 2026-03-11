@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent-grad-d" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6172f3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg-dark)" rx="0"/>
+
+  <!-- Subtle geometric elements -->
+  <circle cx="100" cy="60" r="120" fill="#6172f3" opacity="0.06"/>
+  <circle cx="1100" cy="240" r="150" fill="#8b5cf6" opacity="0.05"/>
+  <circle cx="900" cy="40" r="80" fill="#6172f3" opacity="0.04"/>
+  <circle cx="300" cy="260" r="60" fill="#8b5cf6" opacity="0.04"/>
+
+  <!-- Grid dots pattern -->
+  <g fill="#6172f3" opacity="0.12">
+    <circle cx="50" cy="50" r="2"/><circle cx="90" cy="50" r="2"/><circle cx="130" cy="50" r="2"/><circle cx="170" cy="50" r="2"/>
+    <circle cx="50" cy="90" r="2"/><circle cx="90" cy="90" r="2"/><circle cx="130" cy="90" r="2"/><circle cx="170" cy="90" r="2"/>
+    <circle cx="1030" cy="210" r="2"/><circle cx="1070" cy="210" r="2"/><circle cx="1110" cy="210" r="2"/><circle cx="1150" cy="210" r="2"/>
+    <circle cx="1030" cy="250" r="2"/><circle cx="1070" cy="250" r="2"/><circle cx="1110" cy="250" r="2"/><circle cx="1150" cy="250" r="2"/>
+  </g>
+
+  <!-- Logo mark -->
+  <g transform="translate(480, 85)">
+    <rect x="0" y="0" width="44" height="44" rx="10" fill="url(#accent-grad-d)"/>
+    <text x="22" y="31" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="white" text-anchor="middle">E</text>
+  </g>
+
+  <!-- Brand name -->
+  <text x="540" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="#f0f6fc" letter-spacing="-1">emotix</text>
+
+  <!-- Tagline -->
+  <text x="600" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#8b949e" text-anchor="middle" letter-spacing="0.5">AI-powered startup research platform</text>
+
+  <!-- Pill badges -->
+  <g transform="translate(355, 200)">
+    <rect x="0" y="0" width="110" height="30" rx="15" fill="#6172f3" opacity="0.15"/>
+    <text x="55" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#a4b0f5" text-anchor="middle" font-weight="500">Market Research</text>
+  </g>
+  <g transform="translate(425, 200)">
+    <rect x="0" y="0" width="130" height="30" rx="15" fill="#6172f3" opacity="0.15"/>
+    <text x="65" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#a4b0f5" text-anchor="middle" font-weight="500">Competitor Intel</text>
+  </g>
+  <g transform="translate(515, 200)">
+    <rect x="0" y="0" width="130" height="30" rx="15" fill="#6172f3" opacity="0.15"/>
+    <text x="65" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#a4b0f5" text-anchor="middle" font-weight="500">Product Strategy</text>
+  </g>
+  <g transform="translate(595, 200)">
+    <rect x="0" y="0" width="135" height="30" rx="15" fill="#6172f3" opacity="0.15"/>
+    <text x="67" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#a4b0f5" text-anchor="middle" font-weight="500">Financial Modeling</text>
+  </g>
+</svg>
